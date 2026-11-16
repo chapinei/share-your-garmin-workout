@@ -463,7 +463,7 @@ class GarminImport {
 		}
 
 		// workout name
-		uploadedJson['workoutName'] += ' - copy';
+		uploadedJson['workoutName'];
 
 		let segmentsNumber = uploadedJson['workoutSegments'].length;
 		for (let x = 0; x < segmentsNumber; x++) {
